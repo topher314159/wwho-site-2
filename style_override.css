@@ -1,0 +1,96 @@
+/* TODO pad the title bottoms a bit. */
+
+body {
+	min-height: 75rem;
+	padding-top: 7.5rem;
+}
+
+.row {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+
+.jumbotron-fluid {
+	background-color: #adc8ff;
+	box-shadow: 5px 5px 5px #999999;
+	border-radius: 5px !important;
+}
+
+
+.textstyle {
+	color: #15274b;
+}
+
+.mainheader {
+	text-align: center;
+	justify-content: center !important;
+}
+
+.carousel, .carousel-inner > .item {
+  display: run-in;
+  width: 100%;
+  height: auto !important;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  line-height: 1;
+}
+
+/* TODO change this so it is responsive to screen size. */
+.car-img {
+	max-height: 50vh !important;
+}
+
+.padsm {
+	padding-top: 10px;
+}
+
+@media screen and (min-width: 768px){
+	.car-img {
+		max-height: 60vh !important;
+	}
+
+	.padsm {
+		padding-top: 0px;
+	}
+
+	.jumbotron-fluid {
+		background-color: #adc8ff;
+		height: 110vh;
+		box-shadow: 5px 5px 5px #999999;
+		border-radius: 5px !important;
+	}
+}
+
+.prof-img {
+	max-height: 100px !important;
+}
+
+.memberscard {
+	max-height: 100%;
+}
+
+.memberprofile {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #6f8fcf;
+	border-radius: 3px;
+	box-shadow: 4px 4px 3px #8ea4d4;
+
+}
